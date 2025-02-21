@@ -1,0 +1,17 @@
+.category_card {
+  width: 200px;
+  height: 100px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: #c1dfd3 1px solid;
+  
+}
+.category_card p {
+  color: #2d3748;
+  font-weight: 600;
+  font-size: 16px;
+}

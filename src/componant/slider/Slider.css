@@ -1,0 +1,10 @@
+.slider_contaner{
+    width: 100%;
+    height: auto;
+}
+.slider_maxwidth{
+    margin: auto auto;
+    max-width: 1024px;
+    height: auto;
+    padding: 20px;
+}

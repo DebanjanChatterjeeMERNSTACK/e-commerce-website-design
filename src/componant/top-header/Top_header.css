@@ -1,0 +1,29 @@
+.top_header_contaner{
+    width: 100%;
+    height: 30px;
+    background-color: #F1F1F1;
+}
+.top_header_widthmax{
+    margin: auto auto;
+    max-width: 1024px;
+    height: 30px;
+}
+.top_header_flex{
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+.top_header_contant_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.top_header_contant_flex p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 500;
+}

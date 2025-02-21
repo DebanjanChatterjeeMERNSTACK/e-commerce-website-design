@@ -1,0 +1,19 @@
+.category_contaner{
+    width: 100%;
+    height: 30vh;
+   
+}
+.category_maxwidth{
+    margin: auto auto;
+    max-width: 1024px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.category_flex{
+    height: auto;
+    width: 90%;
+    
+}

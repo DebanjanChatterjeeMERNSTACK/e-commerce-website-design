@@ -1,0 +1,9 @@
+.felx_image {
+    width: 100%;
+    height: 60vh;
+  }
+  .felx_image_maxwidth {
+    margin: auto auto;
+    max-width: 1024px;
+    height: 60vh;
+  }

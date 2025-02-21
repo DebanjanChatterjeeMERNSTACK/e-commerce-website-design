@@ -1,0 +1,25 @@
+.section_contaner {
+  width: 100%;
+  height: 90vh;
+}
+.section_maxwidth {
+  margin: auto auto;
+  max-width: 1024px;
+  height: 90vh;
+}
+.section_maxwidth h1 {
+  color: #5CAF90;
+  padding: 20px 20px 40px 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.section_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_slider {
+  height: auto;
+  width: 90%;
+  /* background-color: aqua; */
+}

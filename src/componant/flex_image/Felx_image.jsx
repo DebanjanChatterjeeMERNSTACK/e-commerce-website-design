@@ -1,5 +1,5 @@
 import "./Felx_image.css"
-import img from "../../assets/image.jpg"
+import img from "../../assets/1.jpg"
 
 const Felx_image=()=>{
     return(

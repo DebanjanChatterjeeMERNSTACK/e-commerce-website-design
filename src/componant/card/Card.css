@@ -1,8 +1,8 @@
 .card{
     width: 200px;
-    height: 350px;
+    height: 380px;
     border-radius: 5px;
-    border: #7effc9 1px solid;
+    border: #e6e6e6 1px solid;
 }
 .card_image{
     position: relative;

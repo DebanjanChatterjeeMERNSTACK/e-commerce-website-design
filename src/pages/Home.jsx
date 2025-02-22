@@ -21,8 +21,6 @@ const Home=()=>{
         <Section/>
         <Felx_image/>
         <Section/>
-        <Felx_image/>
-        <Section/>
         </>
     )
 }

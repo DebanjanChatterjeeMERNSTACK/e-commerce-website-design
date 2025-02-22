@@ -31,7 +31,7 @@ const Sliderimage = () => {
                   width: "100%",
                   height: "480px",
                   objectFit: "cover",
-                  borderRadius:"3px"
+                  borderRadius:"5px"
                 }}
               />
             </div>
@@ -42,7 +42,7 @@ const Sliderimage = () => {
                   width: "100%",
                   height: "480px",
                   objectFit: "cover",
-                  borderRadius:"3px"
+                  borderRadius:"5px"
                 }}
               />
             </div>

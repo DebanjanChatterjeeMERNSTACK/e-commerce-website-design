@@ -1,5 +1,5 @@
 import "./Category_card.css";
-import img from "../../assets/image.jpg";
+import img from "../../assets/3.jpg";
 const Category_card = () => {
   return (
     <>

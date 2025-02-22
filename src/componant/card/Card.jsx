@@ -1,5 +1,5 @@
 import "./Card.css";
-import img from "../../assets/image.jpg";
+import img from "../../assets/2.jpg";
 import { FaStar } from "react-icons/fa";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { TbShoppingBagPlus } from "react-icons/tb";
@@ -12,7 +12,7 @@ const Card = () => {
         <div className="card_image">
           <img
             src={img}
-            style={{ width: "100%", height: "150px", borderRadius: "5px" }}
+            style={{ width: "100%", height: "180px", borderRadius: "5px",borderBottom:"1px solid rgb(238, 238, 238)" }}
           />
           <span>20%</span>
         </div>

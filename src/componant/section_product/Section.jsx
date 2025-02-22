@@ -70,7 +70,9 @@ const Section = () => {
     <>
       <div className="section_contaner">
         <div className="section_maxwidth">
-          <h1>New Arrivals</h1>
+        <div className="Blog_section_heading">
+            <h2>Suggested Articles</h2>
+          </div>
           <div className="section_flex">
             <div className="section_slider">
               <Slider {...settings}>

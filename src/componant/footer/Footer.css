@@ -1,0 +1,48 @@
+.footer_contaner{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.footer_maxwidth{
+   max-width: 1024px;
+   height:auto;
+   margin: auto auto; 
+
+}
+.footer_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    flex-wrap: wrap;
+}
+.footer_About p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(113, 128, 150);
+   margin-top: 10px;
+}
+.Quick_links h4{
+   color: #4e5868;
+}
+.Quick_links p{
+    font-size: 16px;
+  font-weight: 400;
+  color: rgb(113, 128, 150);
+   margin-top: 10px;
+}
+.contact_social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-top: 10px;
+}
+.contact_social h6{
+    font-size:16px ;
+    font-weight: 400;
+    color: gray;
+}

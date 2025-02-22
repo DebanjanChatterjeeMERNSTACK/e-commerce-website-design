@@ -3,7 +3,7 @@ import img from "../../assets/2.jpg";
 import { FaStar } from "react-icons/fa";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { TbShoppingBagPlus } from "react-icons/tb";
-import { IoMdHeartEmpty  } from "react-icons/io";
+import { FaRegHeart } from "react-icons/fa";
 
 const Card = () => {
   return (
@@ -37,7 +37,7 @@ const Card = () => {
           <div className="card_icon">
             <MdOutlineRemoveRedEye style={{color:"#4B5966",fontSize:"23px"}}/>
             <TbShoppingBagPlus style={{color:"#4B5966",fontSize:"23px"}}/>
-            <IoMdHeartEmpty style={{color:"#4B5966",fontSize:"23px"}}/>
+            <FaRegHeart style={{color:"#4B5966",fontSize:"23px"}}/>
           </div>
         </div>
       </div>

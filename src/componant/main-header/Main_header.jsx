@@ -36,7 +36,6 @@ const Main_header = () => {
                 <NavLink to={"/"}>Logout</NavLink>
                 <NavLink to={"/profile"}>Your Profile</NavLink>
                 <NavLink to={"/order"}>Your Order</NavLink>
-
                 </div>
               </div>
             </div>

@@ -11,6 +11,8 @@ import { useEffect, useState, useRef } from "react";
 import { FaCircleArrowLeft, FaCircleArrowRight } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
+import Accordion from "../accordion_product/Accordion";
+import Section from "../section_product/Section";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -167,7 +169,7 @@ const ProductDetails = () => {
               <div className="product_size">
                 <h5>Variant</h5>
                 <div className="product_size_flex">
-                  {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((e, i) => {
+                  {[1, 2, 3, 4, 5].map((e, i) => {
                     return (
                       <div
                         className={
@@ -208,6 +210,8 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
+      <Accordion/>
+      <Section/>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import Accordion from "../componant/accordion_product/Accordion";
+
 import Footer from "../componant/footer/Footer";
 import Main_header from "../componant/main-header/Main_header";
 import Menu from "../componant/menu/Menu";
@@ -13,8 +13,6 @@ const Product_Details = () => {
       <Main_header />
       <Menu />
       <ProductDetails />
-      <Accordion />
-      <Section />
       <Footer />
     </>
   );

@@ -1,3 +1,4 @@
+import Contact_form from "../componant/contact_form/Contact_form";
 import Footer from "../componant/footer/Footer";
 import Main_header from "../componant/main-header/Main_header";
 import Menu from "../componant/menu/Menu";
@@ -10,6 +11,7 @@ const Contact =()=>{
           <Top_header/>
           <Main_header/>
           <Menu/>
+          <Contact_form/>
           <Footer/>
         </>
     )

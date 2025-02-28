@@ -1,0 +1,29 @@
+.Blog_hero_contaner {
+  width: 100%;
+  height: auto;
+  background-color: #f8f8f8;
+}
+.Blog_hero_maxwidth {
+  margin: auto auto;
+  max-width: 1024px;
+  height: auto;
+}
+.Blog_hero_flex{
+display: flex;
+justify-content: space-around;
+padding: 50px;
+}
+.Blog_hero_flex span {
+  background-color: #e2e8f0;
+  color: rgb(106, 119, 136);
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.Blog_hero_flex h1{
+  font-size: 48px;
+  font-weight:900 ;
+  color: #2D3748;
+  margin-top: 20px;
+}

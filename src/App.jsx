@@ -12,6 +12,11 @@ import Order from "./pages/Order";
 import Search from "./pages/Search";
 import Product_Details from "./pages/Product_Details";
 import Blog_Details from "./pages/Blog_details";
+import Privacy_policy from "./pages/Privacy_policy";
+import Terms_and_Conditions from "./pages/Terms_and_Conditions";
+import Shipping_Policy from "./pages/Shipping_Policy";
+import Refund_policy from "./pages/Refund_policy";
+
 
 const App = () => {
   return (
@@ -30,6 +35,10 @@ const App = () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/order" element={<Order />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/refund-policy" element={< Refund_policy/>} />
+          <Route path="/shipping-policy" element={<Shipping_Policy />} />
+          <Route path="/terms-and-Conditions" element={<Terms_and_Conditions />} />
+          <Route path="/privacy-policy" element={<Privacy_policy />} />
         </Routes>
       </BrowserRouter>
     </>

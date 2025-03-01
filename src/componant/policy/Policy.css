@@ -1,0 +1,11 @@
+.policy_contaner{
+    width: 100%;
+    height: auto;
+}
+.policy_maxwidth{
+    max-width: 1024px;
+    height:auto;
+    margin: auto auto; 
+    padding: 20px;
+    text-align: justify;
+}

@@ -41,7 +41,21 @@ const Cart_details = () => {
                 );
               })}
             </div>
-            <div className="cart_product_cal"></div>
+            <div className="cart_product_cal">
+              <div className="cart_product_cal_heading">
+                <h3>Price Details (4 Items)</h3>
+                <div className="cart_product_cal_flex">
+                  <p>Total Product Price</p>
+                  <p>+ ₹1590</p>
+                </div>
+                <hr/>
+                <div className="cart_product_cal_flex">
+                  <p>Order Total</p>
+                  <p>+ ₹1590</p>
+                </div>
+              </div>
+              <button className="button3">Payment Now</button>
+            </div>
           </div>
         </div>
       </div>

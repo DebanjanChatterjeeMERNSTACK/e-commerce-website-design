@@ -48,6 +48,10 @@ const Cart_details = () => {
                   <p>Total Product Price</p>
                   <p>+ ₹1590</p>
                 </div>
+                <div className="cart_product_cal_flex">
+                  <p>Delivery</p>
+                  <p>+ ₹15</p>
+                </div>
                 <hr/>
                 <div className="cart_product_cal_flex">
                   <p>Order Total</p>

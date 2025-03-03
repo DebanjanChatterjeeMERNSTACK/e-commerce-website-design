@@ -1,5 +1,4 @@
 import "./Footer.css";
-
 import {
   FaFacebookSquare,
   FaTwitterSquare,
@@ -18,15 +17,32 @@ const Footer = () => {
         <div className="footer_maxwidth">
           <div className="footer_flex">
             <div className="footer_About">
-              <img src={logo} />
+              <NavLink to={"/"}>
+                {" "}
+                <img src={logo} />
+              </NavLink>
               <p>© 2025, All Rights Reserved.</p>
             </div>
             <div className="Quick_links">
               <h4>Quick Links</h4>
-              <p>Home</p>
-              <p>About</p>
-              <p>Contact Us</p>
-              <p>Blog</p>
+              <NavLink to={"/"}>
+                {" "}
+                <p>Home</p>
+              </NavLink>
+              <NavLink to={"/about"}>
+                <p>About</p>
+              </NavLink>
+              <NavLink to={"/product"}>
+                <p>Product</p>
+              </NavLink>
+              <NavLink to={"/blog"}>
+                {" "}
+                <p>Blog</p>
+              </NavLink>
+              <NavLink to={"/contact"}>
+                {" "}
+                <p>Contact Us</p>
+              </NavLink>
             </div>
             <div className="Quick_links">
               <h4>Policy Links</h4>
@@ -46,6 +62,10 @@ const Footer = () => {
                 {" "}
                 <p>Refund-policy</p>
               </NavLink>
+              <NavLink to={"/faq"}>
+                {" "}
+                <p>FAQ</p>
+              </NavLink>
             </div>
             <div className="Quick_links">
               <h4>Social Links</h4>
@@ -56,6 +76,10 @@ const Footer = () => {
               <div className="contact_social">
                 <HiOutlineMail style={{ color: "#5CAF90" }} />
                 <h6>text@gmail.com</h6>
+              </div>
+              <div className="contact_social">
+                <MdOutlineLocalPhone style={{ color: "#5CAF90" }} />
+                <h6>+91 1234567891</h6>
               </div>
               <div className="contact_social">
                 <MdOutlineLocalPhone style={{ color: "#5CAF90" }} />

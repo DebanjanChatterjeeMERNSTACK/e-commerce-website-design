@@ -210,7 +210,14 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
-      <Accordion/>
+      {[1,2,3].map((e)=>{
+        return(
+          <>
+           <Accordion/>
+          </>
+        )
+        })}
+     
       <Section/>
     </>
   );

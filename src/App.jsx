@@ -16,6 +16,8 @@ import Privacy_policy from "./pages/Privacy_policy";
 import Terms_and_Conditions from "./pages/Terms_and_Conditions";
 import Shipping_Policy from "./pages/Shipping_Policy";
 import Refund_policy from "./pages/Refund_policy";
+import Faq from "./pages/FAQ";
+import About from "./pages/About";
 
 
 const App = () => {
@@ -24,6 +26,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/product" element={<Product />} />
           <Route path="/product/:id" element={<Product_Details />} />
           <Route path="/blog" element={<Blog />} />
@@ -39,6 +42,7 @@ const App = () => {
           <Route path="/shipping-policy" element={<Shipping_Policy />} />
           <Route path="/terms-and-Conditions" element={<Terms_and_Conditions />} />
           <Route path="/privacy-policy" element={<Privacy_policy />} />
+          <Route path="/faq" element={<Faq />} />
         </Routes>
       </BrowserRouter>
     </>

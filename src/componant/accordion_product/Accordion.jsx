@@ -16,28 +16,6 @@ const Accordion = () => {
               </p>
             </div>
           </details>
-          <details className="accordion">
-            <summary className="accordion-btn">Acc 2</summary>
-            <div className="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                nesciunt, iste ut incidunt officia maxime impedit sit eligendi
-                labore inventore, reprehenderit excepturi voluptas sequi eos
-                dolorem voluptatibus porro voluptate dolorum.
-              </p>
-            </div>
-          </details>
-          <details className="accordion">
-            <summary className="accordion-btn">Acc 3</summary>
-            <div className="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                nesciunt, iste ut incidunt officia maxime impedit sit eligendi
-                labore inventore, reprehenderit excepturi voluptas sequi eos
-                dolorem voluptatibus porro voluptate dolorum.
-              </p>
-            </div>
-          </details>
         </div>
       </div>
     </>

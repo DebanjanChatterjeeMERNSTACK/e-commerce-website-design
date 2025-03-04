@@ -16,7 +16,9 @@ const Policy = () => {
 
       <div className="policy_contaner">
         <div className="policy_maxwidth">
-          <h1>Policy</h1>
+        <div className="Blog_section_heading">
+            <h2>Policy</h2>
+          </div>
           <p>
             simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy text ever since the

@@ -1,0 +1,14 @@
+.about_contaner {
+  width: 100%;
+  height: auto;
+}
+.about_maxwidth {
+  margin: auto auto;
+  max-width: 1024px;
+  height: auto;
+  padding: 20px;
+  text-align: justify;
+}
+.about_contant p{
+  color: rgb(88, 88, 88);
+}

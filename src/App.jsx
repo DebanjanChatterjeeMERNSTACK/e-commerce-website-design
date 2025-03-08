@@ -18,6 +18,7 @@ import Shipping_Policy from "./pages/Shipping_Policy";
 import Refund_policy from "./pages/Refund_policy";
 import Faq from "./pages/FAQ";
 import About from "./pages/About";
+import Forget from "./pages/Forget";
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/blog/:id" element={<Blog_Details />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/forget-password" element={<Forget />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<Profile />} />

@@ -8,9 +8,6 @@ const Search =()=>{
 
     return(
         <>
-          <Top_header/>
-          <Main_header/>
-          <Menu/>
           <Searchform/>
           <Footer/>
         </>

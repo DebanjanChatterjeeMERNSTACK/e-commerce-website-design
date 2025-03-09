@@ -1,0 +1,52 @@
+.search_contaner {
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  border-bottom: #dadada 1px solid;
+}
+.seaech_maxwidth {
+  margin: auto auto;
+  max-width: 1024px;
+  height: auto;
+  /* background-color: brown; */
+  padding: 20px;
+}
+.seaech_flex_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.search_contaner_card{
+    width: 100%;
+    height: auto;
+}
+.search_contaner_card_maxwidth{
+  padding: 20px;
+  margin: auto auto;
+  max-width: 1024px;
+  height: auto;
+}
+.seaech_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 30px; */
+}
+.seaech_flex input{
+    width: 550px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    color: #5a5a5a;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.seaech_flex input::placeholder {
+    color: #5a5a5a;
+    font-weight: 500;
+    font-family:Poppins,serif;
+  
+  }

@@ -16,7 +16,6 @@ const Blog_section = () => {
                     <div>
                       <img src={img} className="Blog_section_image" />
                     </div>
-                    <span>Foods</span>
                     <h3>This US States Test Doesn't End Until</h3>
                     <p>
                       Primo in altis pelle alumnae Lorem markdownum obvius in

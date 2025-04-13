@@ -1,7 +1,7 @@
 import Footer from "../footer/Footer";
-import Main_header from "../main-header/Main_header";
+import Main_header from "../main_header/Main_header";
 import Menu from "../menu/Menu";
-import Top_header from "../top-header/Top_header";
+import Top_header from "../top_header/Top_header";
 import "./Policy.css";
 
 const Policy = () => {

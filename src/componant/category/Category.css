@@ -17,3 +17,25 @@
     width: 90%;
     
 }
+
+
+@media screen and (max-width: 512px) {
+   
+    .category_flex{
+        height: auto;
+        width: 85%;
+        
+    }
+
+
+  }
+  @media screen and (max-width: 362px) {
+   
+    .category_flex{
+        height: auto;
+        width: 80%;
+        
+    }
+
+
+  }

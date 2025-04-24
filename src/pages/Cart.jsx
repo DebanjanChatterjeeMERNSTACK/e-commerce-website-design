@@ -1,4 +1,4 @@
-import Cart_details from "../componant/Cart_details/Cart_details";
+import Cart_details from "../componant/cart_details/Cart_details";
 import Footer from "../componant/footer/Footer";
 import Main_header from "../componant/main_header/Main_header";
 import Menu from "../componant/menu/Menu";

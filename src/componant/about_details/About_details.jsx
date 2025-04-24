@@ -68,6 +68,30 @@ const About_details = () => {
           slidesToScroll: 1,
         },
       },
+      {
+        breakpoint: 562, // Tablets and smaller laptops
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerMode: false,
+        },
+      },
+      {
+        breakpoint: 450, // Tablets and smaller laptops
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+        },
+      },
+      {
+        breakpoint: 347, // Tablets and smaller laptops
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+        },
+      },
     ],
   };
   return (

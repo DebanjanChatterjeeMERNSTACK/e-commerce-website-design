@@ -61,6 +61,30 @@ const Category = () => {
           slidesToScroll: 1,
         },
       },
+      {
+        breakpoint: 582, // Tablets and smaller laptops
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerMode: false,
+        },
+      },
+      {
+        breakpoint: 475, // Tablets and smaller laptops
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+        },
+      },
+      {
+        breakpoint: 362, // Tablets and smaller laptops
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode:false,
+        },
+      },
     ],
   };
 

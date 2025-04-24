@@ -23,3 +23,25 @@
   width: 90%;
   /* background-color: aqua; */
 }
+
+
+@media screen and (max-width: 512px) {
+   
+  .section_slider {
+    height: auto;
+    width: 85%;
+    /* background-color: aqua; */
+  }
+
+
+}
+@media screen and (max-width: 362px) {
+   
+  .section_slider{
+      height: auto;
+      width: 80%;
+      
+  }
+
+
+}

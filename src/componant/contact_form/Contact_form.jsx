@@ -20,15 +20,14 @@ const Contact_form = () => {
                 submissions via email.
               </p>
             </div>
-            <div>
+            <div >
               <img
                 src={img1}
                 style={{
-                  width: "300px",
-                  height: "300px",
                   borderRadius: "50%",
                   borderBottom: "10px solid #5CAF90 ",
                 }}
+                className="contact_image"
               />
             </div>
           </div>

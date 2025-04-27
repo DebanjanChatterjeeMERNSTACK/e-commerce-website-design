@@ -13,7 +13,7 @@ const Blog_hero = () => {
               <h1>The Pleasure of Defying Food Fashions</h1>
             </div>
             <div>
-              <img src={img1} style={{width:"300px", height:"300px", borderRadius:"50%",borderBottom:"10px solid #5CAF90"}} />
+              <img src={img1} style={{ borderRadius:"50%",borderBottom:"10px solid #5CAF90"}} className="blog_image"/>
             </div>
           </div>
         </div>

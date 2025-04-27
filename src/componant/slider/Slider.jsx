@@ -24,23 +24,23 @@ const Sliderimage = () => {
       <div className="slider_contaner">
         <div className="slider_maxwidth">
           <Slider {...settings}>
-            <div>
+            <div className="slider_image">
               <img
                 src={img}
                 style={{
                   width: "100%",
-                  height: "480px",
+                  height: "100%",
                   objectFit: "cover",
                   borderRadius:"5px"
                 }}
               />
             </div>
-            <div>
+            <div className="slider_image">
               <img
                 src={img1}
                 style={{
                   width: "100%",
-                  height: "480px",
+                  height: "100%",
                   objectFit: "cover",
                   borderRadius:"5px"
                 }}

@@ -84,7 +84,8 @@ const Section = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerMode: false,
+          centerMode: true,
+          centerPadding: "10px",
         },
       },
     ],
@@ -94,7 +95,7 @@ const Section = () => {
     <>
       <div className="section_contaner">
         <div className="section_maxwidth">
-        <div className="Blog_section_heading">
+          <div className="Blog_section_heading">
             <h2>Suggested Articles</h2>
           </div>
           <div className="section_flex">

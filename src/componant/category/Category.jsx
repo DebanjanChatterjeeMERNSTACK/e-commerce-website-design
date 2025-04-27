@@ -82,7 +82,8 @@ const Category = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerMode:false,
+          centerMode:true,
+          centerPadding: "20px",
         },
       },
     ],

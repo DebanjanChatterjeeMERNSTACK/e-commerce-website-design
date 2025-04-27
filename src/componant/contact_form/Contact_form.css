@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-around;
   padding: 50px;
+  gap: 20px;
 }
 
 .Contact_flex h1 {
@@ -27,6 +28,7 @@
   line-height: 35px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .con_form{
@@ -37,10 +39,12 @@
 .con_form_maxwidth{
     margin: auto auto;
     max-width: 1024px;
-    height: 70vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .con_form_flex{
     width: 100%;
@@ -80,7 +84,11 @@
 .contact_area{
     margin-top: 20px;
   }
-
+  .contact_image{
+    width: 300px;
+    height: 300px;
+    
+  }
 .contact_area textarea{
     background-color: transparent;
     border: 0px ;
@@ -99,4 +107,58 @@
     font-weight: 500;
     font-family:Poppins,serif;
     font-size: 16px;
+  }
+
+
+  @media (max-width: 767px) {
+    .Contact_flex {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+  }
+  @media (max-width: 400px) {
+    .Contact_flex {
+      display: flex;
+      justify-content: space-around;
+      padding: 30px;
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+    .contact_image{
+      width: 250px;
+      height: 250px;
+      
+    }
+  }
+  @media (max-width: 352px) {
+    .Contact_flex {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+    .contact_image{
+      width: 200px;
+      height: 200px;
+     
+      
+    }
+    .Contact_flex h1 {
+      font-size: 30px;
+      font-weight: 900;
+      color: #2d3748;
+      margin-top: 20px;
+  }
+  }
+  @media (max-width: 684px) {
+    .input_flex {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+ 
   }

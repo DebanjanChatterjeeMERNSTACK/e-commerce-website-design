@@ -89,7 +89,8 @@ const About_details = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerMode: false,
+          centerMode: true,
+          centerPadding: "20px",
         },
       },
     ],
@@ -98,10 +99,12 @@ const About_details = () => {
     <>
       <div className="about_contaner">
         <div className="about_maxwidth">
+          <div>
           <img
             src={img}
-            style={{ width: "100%", height: "380px", borderRadius: "10px" }}
+            style={{ width: "100%", height: "100%", borderRadius: "10px" }}
           />
+          </div>
           <div className="Blog_section_heading">
             <h2>About Us</h2>
           </div>

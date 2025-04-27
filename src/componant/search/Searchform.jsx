@@ -10,7 +10,7 @@ const Searchform = () => {
       <div className="search_contaner">
         <div className="seaech_maxwidth">
           <div className="seaech_flex">
-            <div>
+            <div className="back_btn">
                 <NavLink to={"/"}><button className="button2"><FaArrowLeftLong  style={{fontSize:"25px"}}/></button></NavLink>
             </div>
             <div>

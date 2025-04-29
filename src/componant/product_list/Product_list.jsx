@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Product_list.css";
 import Card from "../card/Card";
 import { MdOutlineFormatListBulleted } from "react-icons/md";
 
 const Product_list = () => {
+  const [toggal, settoggal] = useState(false);
+  const handleClick = () => {
+    if (toggal) {
+      settoggal(false);
+    } else {
+      settoggal(true);
+    }
+  };
   return (
     <>
       <div className="product_list_contaner">
         <div className="product_list_maxwidth">
-          <div className="product_filter">
+          <div className={`${toggal ?"product_filter_none": "product_filter"}`}>
             <div>
               <h3>Caterory</h3>
               {[1, 2, 3, 4, 5].map((e, i) => {
@@ -51,14 +59,17 @@ const Product_list = () => {
                 />
               </div>
             </div>
+            <button className="button2">Clear All</button>
           </div>
           <div className="product_list">
             <div className="product_list_sorting">
               <MdOutlineFormatListBulleted
                 style={{
-                 fontSize:"30px",
-                 marginTop:"5px"
+                  fontSize: "30px",
+                  marginTop: "5px",
                 }}
+                className="burger_icon"
+                onClick={handleClick}
               />
             </div>
             <div className="product_list_flex">

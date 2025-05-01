@@ -37,7 +37,7 @@ const Card = () => {
           <div className="card_icon">
             <MdOutlineRemoveRedEye style={{color:"#4B5966",fontSize:"23px"}}/>
             <TbShoppingBagPlus style={{color:"#4B5966",fontSize:"23px"}}/>
-            <FaRegHeart style={{color:"#4B5966",fontSize:"23px"}}/>
+            {/* <FaRegHeart style={{color:"#4B5966",fontSize:"23px"}}/> */}
           </div>
         </div>
       </div>

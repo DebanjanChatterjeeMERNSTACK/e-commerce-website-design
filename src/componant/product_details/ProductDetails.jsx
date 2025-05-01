@@ -79,10 +79,30 @@ const ProductDetails = () => {
           slide.removeAttribute("inert");
         } else {
           slide.setAttribute("aria-hidden", "true");
-          slide.setAttribute("inert", "true"); // Prevent focus
+          slide.setAttribute("inert", "true");
         }
       });
     },
+    responsive: [
+      {
+        breakpoint: 526, // For tablets and below
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+          centerMode: true,
+          centerPadding: "5px",
+        },
+      },
+      {
+        breakpoint: 358, // For mobile phones
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          centerMode: true,
+          centerPadding: "30px",
+        },
+      },
+    ],
   };
 
   const handlebackgroundcolor = (id) => {
@@ -105,7 +125,8 @@ const ProductDetails = () => {
                       <div key={e}>
                         <img
                           src={img}
-                          style={{ width: "450px", height: "400px" }}
+                         
+                          className="big_product_image"
                         />
                       </div>
                     );

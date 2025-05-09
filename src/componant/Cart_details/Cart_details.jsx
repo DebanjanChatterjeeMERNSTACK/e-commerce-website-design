@@ -1,7 +1,10 @@
 import "./Cart_details.css";
 import img from "../../assets/image.jpg";
+import { useState } from "react";
+import { FaMoneyBillWave, FaCreditCard } from "react-icons/fa";
 
 const Cart_details = () => {
+  const [selectedMethod, setSelectedMethod] = useState("cash");
   const str = "Imported Popcorn Stylish Shirts For Mens And Female";
   return (
     <>
@@ -52,10 +55,48 @@ const Cart_details = () => {
                   <p>Delivery</p>
                   <p>+ ₹15</p>
                 </div>
-                <hr/>
+                <hr />
                 <div className="cart_product_cal_flex">
                   <p>Order Total</p>
                   <p>+ ₹1590</p>
+                </div>
+                <div className="payment-wrapper">
+                  <h2>Choose Payment Method</h2>
+                  <div className="payment-options">
+                    <label
+                      className={`option-card ${
+                        selectedMethod === "cash" ? "active" : ""
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name="payment"
+                        value="cash"
+                        checked={selectedMethod === "cash"}
+                        onChange={(e) => setSelectedMethod(e.target.value)}
+                      />
+                      <span className="radio-dot"></span>
+                      <FaMoneyBillWave className="icon" />
+                      <span className="label-text">Cash</span>
+                    </label>
+
+                    <label
+                      className={`option-card ${
+                        selectedMethod === "online" ? "active" : ""
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name="payment"
+                        value="online"
+                        checked={selectedMethod === "online"}
+                        onChange={(e) => setSelectedMethod(e.target.value)}
+                      />
+                      <span className="radio-dot"></span>
+                      <FaCreditCard className="icon" />
+                      <span className="label-text">Online</span>
+                    </label>
+                  </div>
                 </div>
               </div>
               <button className="button3">Payment Now</button>

@@ -61,7 +61,7 @@ const Cart_details = () => {
                   <p>+ ₹1590</p>
                 </div>
                 <div className="payment-wrapper">
-                  <h2>Choose Payment Method</h2>
+                  <h3>Choose Payment Method</h3>
                   <div className="payment-options">
                     <label
                       className={`option-card ${

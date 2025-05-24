@@ -1,7 +1,9 @@
 import Footer from "../componant/footer/Footer";
 import Main_header from "../componant/main_header/Main_header";
 import Menu from "../componant/menu/Menu";
+import Order_list from "../componant/order/Order_list";
 import Top_header from "../componant/top_header/Top_header";
+import Section from "../componant/section_product/Section";
 
 const Order =()=>{
 
@@ -10,6 +12,8 @@ const Order =()=>{
           <Top_header/>
           <Main_header/>
           <Menu/>
+          <Order_list/>
+          <Section/>
           <Footer/>
         </>
     )

@@ -28,6 +28,15 @@ const Registrationform = () => {
                 />
               </div>
               <div className="input-group">
+                <label htmlFor="phone">Phone Number</label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Enter your number"
+                  required
+                />
+              </div>
+              <div className="input-group">
                 <label htmlFor="password">Password</label>
                 <input
                   type="password"

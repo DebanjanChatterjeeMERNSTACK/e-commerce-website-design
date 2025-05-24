@@ -19,11 +19,11 @@ const Forgetpassword = () => {
                 />
               </div>
               <div className="input-group">
-                <label htmlFor="password">Password</label>
+                <label htmlFor="password">New Password</label>
                 <input
                   type="password"
                   id="password"
-                  placeholder="Enter your password"
+                  placeholder="Enter your new password"
                   required
                 />
               </div>

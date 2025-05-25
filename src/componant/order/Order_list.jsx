@@ -11,7 +11,7 @@ import {
   FaLandmark,
   FaMailBulk,
   FaFlag,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 const Order_list = () => {
   const [selectedMethod, setSelectedMethod] = useState("cash");
   const str = "Imported Popcorn Stylish Shirts For Mens And Female";
@@ -19,12 +19,12 @@ const Order_list = () => {
     <>
       <div className="Cart_details_contaner">
         <div className="Cart_details_maxwidth">
-          <div className="Cart_details_flex">
-            <div className="cart_product">
-              {[1, 2, 3,4,5].map((e) => {
+          <div className="order_details_flex">
+           
+              {[1, 2, 3, 4, 5].map((e) => {
                 return (
                   <>
-                    <div className="cart_product_contant">
+                    <div className="order_product_contant">
                       <img
                         src={img}
                         style={{
@@ -58,70 +58,71 @@ const Order_list = () => {
                 );
               })}
             </div>
-            <div className="cart_product_cal">
-             <div className="address-card">
-      <h2 className="address-title">📍 User Address Details</h2>
+            {/* <div className="cart_product_cal">
+              <div className="address-card">
+                <h2 className="address-title">📍 User Address Details</h2>
 
-      <div className="address-section">
-        <FaMapMarkerAlt className="address-icon" />
-        <div className="address-text">
-          <span className="label">Address:</span>
-          <span>Malancha Taki Road, Kazipara, Barasat, Kolkata-700124</span>
-        </div>
-      </div>
+                <div className="address-section">
+                  <FaMapMarkerAlt className="address-icon" />
+                  <div className="address-text">
+                    <span className="label">Address:</span>
+                    <span>
+                      Malancha Taki Road, Kazipara, Barasat, Kolkata-700124
+                    </span>
+                  </div>
+                </div>
 
-      <div className="address-section">
-        <FaLandmark className="address-icon" />
-        <div className="address-text">
-          <span className="label">Nearest Landmark:</span>
-          <span>Malancha Kali Mondir</span>
-        </div>
-      </div>
+                <div className="address-section">
+                  <FaLandmark className="address-icon" />
+                  <div className="address-text">
+                    <span className="label">Nearest Landmark:</span>
+                    <span>Malancha Kali Mondir</span>
+                  </div>
+                </div>
 
-      <div className="address-section">
-        <FaCity className="address-icon" />
-        <div className="address-text">
-          <span className="label">City:</span>
-          <span>Barasat</span>
-        </div>
-      </div>
+                <div className="address-section">
+                  <FaCity className="address-icon" />
+                  <div className="address-text">
+                    <span className="label">City:</span>
+                    <span>Barasat</span>
+                  </div>
+                </div>
 
-      <div className="address-section">
-        <FaFlag className="address-icon" />
-        <div className="address-text">
-          <span className="label">State:</span>
-          <span>West Bengal</span>
-        </div>
-      </div>
+                <div className="address-section">
+                  <FaFlag className="address-icon" />
+                  <div className="address-text">
+                    <span className="label">State:</span>
+                    <span>West Bengal</span>
+                  </div>
+                </div>
 
-      <div className="address-section">
-        <FaLocationArrow className="address-icon" />
-        <div className="address-text">
-          <span className="label">Police Station (P.S):</span>
-          <span>Barasat</span>
-        </div>
-      </div>
+                <div className="address-section">
+                  <FaLocationArrow className="address-icon" />
+                  <div className="address-text">
+                    <span className="label">Police Station (P.S):</span>
+                    <span>Barasat</span>
+                  </div>
+                </div>
 
-      <div className="address-section">
-        <FaMailBulk className="address-icon" />
-        <div className="address-text">
-          <span className="label">Post Office (P.O):</span>
-          <span>Kazipara</span>
-        </div>
-      </div>
+                <div className="address-section">
+                  <FaMailBulk className="address-icon" />
+                  <div className="address-text">
+                    <span className="label">Post Office (P.O):</span>
+                    <span>Kazipara</span>
+                  </div>
+                </div>
 
-      <div className="address-section">
-        <FaMapPin className="address-icon" />
-        <div className="address-text">
-          <span className="label">Pin Code:</span>
-          <span>1234567</span>
-        </div>
-      </div>
-    </div>
-            </div>
+                <div className="address-section">
+                  <FaMapPin className="address-icon" />
+                  <div className="address-text">
+                    <span className="label">Pin Code:</span>
+                    <span>1234567</span>
+                  </div>
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
-      </div>
     </>
   );
 };

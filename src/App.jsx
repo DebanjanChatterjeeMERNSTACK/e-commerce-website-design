@@ -19,6 +19,7 @@ import Refund_policy from "./pages/Refund_policy";
 import Faq from "./pages/FAQ";
 import About from "./pages/About";
 import Forget from "./pages/Forget";
+import Reset_password from "./pages/Reset_password";
 
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/forget-password" element={<Forget />} />
+          <Route path="/reset-password/:id" element={<Reset_password />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<Profile />} />
